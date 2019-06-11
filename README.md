@@ -27,6 +27,11 @@ Em **type=op** informa que o tipode de requisição é *operation*. O parâmetro
 
  - O arquivo de configurações config.ini possui as variáveis para informar a API key e o IP da caixa do palo alto na qual ocorre o login.
  - Algumas exceções podem ocorrer em caso de organizações separadas geograficamente e conectadas via VPN, com caixas do firewall separadas. Nesse caso, pode verificar o código comentando no arquivo desconecta.php, analisar e adequar de acordo com a necessidade.
+ - A geração da API key : https://docs.paloaltonetworks.com/pan-os/7-1/pan-os-panorama-api/get-started-with-the-pan-os-xml-api/get-your-api-key.html
+
+### Informações técnicas
+
+Para executar a funcionalidade, o arquivo **desconecta.php** deve rodar em um servidor PHP no mesmo diretório do arquivo de configuração **config.ini**. A página pode ser adequada (via HTML e CSS) à sua organização, modificando imagens, links e títulos.
 
 
 ### Contato
