@@ -29,3 +29,7 @@ Em **type=op** informa que o tipode de requisição é *operation*. O parâmetro
  - Algumas exceções podem ocorrer em caso de organizações separadas geograficamente e conectadas via VPN, com caixas do firewall separadas. Nesse caso, pode verificar o código comentando no arquivo desconecta.php, analisar e adequar de acordo com a necessidade.
 
 
+### Contato
+Essa solução foi desenvolvida pela equipe da STI (Superintendencia de Tecnologia da Informação) da Universidade Federal do Piauí.
+
+e-mail: filipe@ufpi.edu.br
