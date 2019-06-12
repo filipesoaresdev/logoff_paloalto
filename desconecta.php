@@ -91,7 +91,7 @@ if($ipaddress_interno != null){
 $ini_array = parse_ini_file("config.ini");
 // Esse código comentando é referente a possíveis validações para verificar se 
 // o acesso é interno na rede do servidor que executa esse código, ou se é externo à rede.
-// Se for externo, ele vai utilizar o IP no hostname como o IP da caixa do palo alto na rede VPN configurada.	
+// Se for externo, ele vai utilizar o IP na variável $hostname com o IP da caixa do palo alto na rede VPN configurada.	
 // $hostname é uma variavel que guarda o ip de acesso da caixa do Palo Alto na qual sera acessada a API para a desconexão.
 
 /*
